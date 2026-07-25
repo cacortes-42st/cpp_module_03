@@ -6,25 +6,31 @@
 /*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 13:55:51 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/23 13:55:38 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/25 12:13:58 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CLAPTRAP_HPP
 #define CLAPTRAP_HPP
 
+#include <string>
+#include <iostream>
+
 class	ClapTrap
 {
 	private:
-		char	*name;
-		int		hit_points;
-		int		enery_points;
+		std::string	name;
+		unsigned int		hit_points;
+		int		energy_points;
 		int		attack_damage;
 	public:
-		ClapTrap(int hit_points, int enery_points, int attack_damage)
-			: hit_points(10), enery_points(10), attack_damage(0)
-		{
-		}
+
+		ClapTrap();
+		ClapTrap(const ClapTrap &other);
+		ClapTrap &operator=(const ClapTrap &other);
+		~ClapTrap();
+
+		ClapTrap(std::string name);
 
 		void attack(const std::string& target);
 		void takeDamage(unsigned int amount);

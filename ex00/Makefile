@@ -6,11 +6,11 @@
 #    By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/21 13:54:42 by cacortes          #+#    #+#              #
-#    Updated: 2026/07/23 14:00:23 by cacortes         ###   ########.fr        #
+#    Updated: 2026/07/24 16:39:00 by cacortes         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = src/main.cpp src/Fixed.cpp src/Point.cpp src/bsp.cpp
+SRCS = src/main.cpp src/ClapTrap.cpp
 NAME = claptrap
 
 CC = c++
