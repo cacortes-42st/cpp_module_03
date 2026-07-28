@@ -6,12 +6,12 @@
 #    By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/21 13:54:42 by cacortes          #+#    #+#              #
-#    Updated: 2026/07/28 19:54:39 by cacortes         ###   ########.fr        #
+#    Updated: 2026/07/28 20:30:18 by cacortes         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = src/main.cpp src/ClapTrap.cpp
-NAME = claptrap
+SRCS = src/main.cpp src/ClapTrap.cpp src/FragTrap.cpp src/ScavTrap.cpp
+NAME = repetitive
 
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -Iinclude

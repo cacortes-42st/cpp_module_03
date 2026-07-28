@@ -6,11 +6,11 @@
 /*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 13:56:19 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/25 12:19:06 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/28 19:54:53 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ClapTrap.hpp"
+#include "ClapTrap.hpp"
 
 ClapTrap::ClapTrap()
 	: name(""), hit_points(10), energy_points(10), attack_damage(0)

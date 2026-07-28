@@ -5,16 +5,17 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/21 13:56:04 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/28 19:54:48 by cacortes         ###   ########.fr       */
+/*   Created: 2026/07/28 17:44:42 by cacortes          #+#    #+#             */
+/*   Updated: 2026/07/28 19:55:51 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
+#include "FragTrap.hpp"
 
 int	main(void)
 {
-	std::cout << "===== BASIC TEST =====" << std::endl;
+	std::cout << "\n===== CLAPTRAP TEST =====" << std::endl;
 	
 	ClapTrap d("david");
 
@@ -22,27 +23,42 @@ int	main(void)
 	d.takeDamage(5);
 	d.beRepaired(3);
 
+	std::cout << "\n===== FRAGTRAP TEST =====" << std::endl;
+	
+	FragTrap s("sac");
 
-	std::cout << "===== ENERGY TEST =====" << std::endl;
-
-	ClapTrap e("energy");
-
-	for(int i = 0; i < 10; i++)
-		e.attack("dummy");
-
-	e.attack("dummy");
-	e.beRepaired(5);
+	s.attack("Boby");
+	s.takeDamage(5);
+	s.beRepaired(3);
 
 
-	std::cout << "===== DEATH TEST =====" << std::endl;
+	std::cout << "\n===== FRAGTRAP ENERGY TEST =====" << std::endl;
 
-	ClapTrap z("zombie");
+	FragTrap c("energy");
 
-	z.takeDamage(10);
+	for(int i = 0; i < 50; i++)
+		c.attack("dummy");
+
+	c.attack("dummy");
+	c.beRepaired(5);
+
+
+	std::cout << "\n===== FRAGTRAP DEATH TEST =====" << std::endl;
+
+	FragTrap z("zombie");
+
+	z.takeDamage(100);
 
 	z.attack("player");
 	z.beRepaired(5);
 	z.takeDamage(1);
+
+
+	std::cout << "\n===== HIGH FIVE TEST =====" << std::endl;
+
+	FragTrap g("Guard");
+
+	g.highFivesGuys();
 	
 	return (0);
 }

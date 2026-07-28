@@ -6,7 +6,7 @@
 #    By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/21 13:54:42 by cacortes          #+#    #+#              #
-#    Updated: 2026/07/26 09:11:22 by cacortes         ###   ########.fr        #
+#    Updated: 2026/07/28 20:26:26 by cacortes         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ SRCS = src/main.cpp src/ClapTrap.cpp src/ScavTrap.cpp
 NAME = serena
 
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -Iinclude
 
 GREEN = \033[0;32m
 YELLOW = \033[0;33m

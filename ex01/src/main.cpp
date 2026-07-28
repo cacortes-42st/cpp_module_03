@@ -6,12 +6,12 @@
 /*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/26 09:10:34 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/26 12:42:49 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/28 20:26:43 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ClapTrap.hpp"
-#include "../include/ScavTrap.hpp"
+#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 
 int	main(void)
 {
