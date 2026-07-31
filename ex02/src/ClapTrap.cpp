@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ClapTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
+/*   By: cacortes <cacortes@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/28 17:44:36 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/28 19:55:39 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/31 12:08:21 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ void ClapTrap::attack(const std::string& target)
 		std::cout << "ClapTrap " << this->name
 				  << " attacks " << target
 				  << ", causing " << this->attack_damage
-				  << " points of damage!." << std::endl;
+				  << " points of damage!" << std::endl;
 		this->energy_points--;
 	}
 	else

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScavTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
+/*   By: cacortes <cacortes@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/28 17:44:47 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/28 20:29:24 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/31 12:03:53 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,7 @@ ScavTrap::ScavTrap(const ScavTrap &other) : ClapTrap(other)
 ScavTrap &ScavTrap::operator=(const ScavTrap &other)
 {
 	if (this != &other)
-	{
 		ClapTrap::operator=(other);
-	}
 	return *this;
 }
 

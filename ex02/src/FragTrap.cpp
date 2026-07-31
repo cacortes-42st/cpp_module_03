@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   FragTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
+/*   By: cacortes <cacortes@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/28 19:38:54 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/28 20:30:32 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/31 12:03:42 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,7 @@ FragTrap::FragTrap(const FragTrap &other) : ClapTrap(other)
 FragTrap &FragTrap::operator=(const FragTrap &other)
 {
 	if (this != &other)
-	{
 		ClapTrap::operator=(other);
-	}
 	return *this;
 }
 

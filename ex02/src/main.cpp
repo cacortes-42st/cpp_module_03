@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
+/*   By: cacortes <cacortes@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/28 17:44:42 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/28 19:55:51 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/31 12:06:17 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ int	main(void)
 
 	std::cout << "\n===== HIGH FIVE TEST =====" << std::endl;
 
-	FragTrap g("Guard");
+	FragTrap g("Dude");
 
 	g.highFivesGuys();
 	
