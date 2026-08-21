@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
+/*   By: cacortes <cacortes@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 13:56:04 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/28 19:54:48 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/31 11:15:45 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	main(void)
 {
-	std::cout << "===== BASIC TEST =====" << std::endl;
+	std::cout << "\n===== BASIC TEST =====" << std::endl;
 	
 	ClapTrap d("david");
 
@@ -23,7 +23,7 @@ int	main(void)
 	d.beRepaired(3);
 
 
-	std::cout << "===== ENERGY TEST =====" << std::endl;
+	std::cout << "\n===== ENERGY TEST =====" << std::endl;
 
 	ClapTrap e("energy");
 
@@ -34,7 +34,7 @@ int	main(void)
 	e.beRepaired(5);
 
 
-	std::cout << "===== DEATH TEST =====" << std::endl;
+	std::cout << "\n===== DEATH TEST =====" << std::endl;
 
 	ClapTrap z("zombie");
 

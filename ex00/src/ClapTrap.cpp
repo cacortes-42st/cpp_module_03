@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ClapTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cacortes <cacortes@student.42.fr>          +#+  +:+       +#+        */
+/*   By: cacortes <cacortes@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 13:56:19 by cacortes          #+#    #+#             */
-/*   Updated: 2026/07/28 19:54:53 by cacortes         ###   ########.fr       */
+/*   Updated: 2026/07/31 11:16:52 by cacortes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,8 @@ void ClapTrap::takeDamage(unsigned int amount)
 {
 	if (this->hit_points == 0)
 	{
-		std::cout << "... is already dead\n";
+		std::cout << "ClapTrap " << this->name
+				 << "... is already dead\n";
 		return ;
 	}
 	if (amount >= hit_points)
