@@ -6,7 +6,7 @@
 * If you find any kind of error or have suggestions to improve, please do not hesitate to point them out in the `issues` section! Obviously always respectfully, thank you :D.
 * All the executable files that this project creates have been selected by me. For your own project, you can use whatever names you prefer to create your files, always keeping the subject in mind. 
 * In these exercises there aren't any main examples, you will have to create your own ones.
-Always remember that the output examples are just examples. They can vary in your own project and still be fine.
+* Always remember that the output examples are just examples. They can vary in your own project and still be fine.
 
 
 
@@ -23,11 +23,11 @@ Always remember that the output examples are just examples. They can vary in you
   * Implement:
     * `void attack(const std::string& target);`: 
       * When ClapTrap uses it, `target` (which is not an object or a class, but the string parameter passed to attack()) represents an imaginary enemy that receives damage equal to ClapTrap's `attack damage`.
-      * ClapTrap lose **1 energy points after** an attack.  
+      * ClapTrap lose **1 energy points after** making an attack.  
     * `void takeDamage(unsigned int amount);`
-      * This function should make ClapTrap lose `hit_points` when receiving an attack. (Do not forget the case when ClapTrap doesn't have any `hit_points` and its dead).
+      * This function should make ClapTrap lose `hit_points` equal to `amount` value (the unsigned int passed as parameter in `takeDamage`), when receiving an attack. (Do not forget the case when ClapTrap doesn't have any `hit_points` and its dead).
     * `void beRepaired(unsigned int amount);`: 
-      * When ClapTrap uses it, it regains `hit_points` equal to `amount` value (The unsigned int passed as parameter in `takeDamage`), but also lose **1 energy points** after repairing itself.
+      * When ClapTrap uses it, it regains `hit_points` equal to `amount` value (the unsigned int passed as parameter in `beRepaired`), but also lose **1 energy points** after repairing itself.
     * All these member functions must report the target and the damage caused in a message similar to this one (without brackets): 
       `ClapTrap <name> attacks <target>, causing <damage> points of damage!`
   * The ClapTrap instances should not interact directly with one another
