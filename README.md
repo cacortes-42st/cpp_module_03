@@ -27,7 +27,7 @@ Always remember that the output examples are just examples. They can vary in you
     * `void takeDamage(unsigned int amount);`
       * This function should make ClapTrap lose `hit_points` when receiving an attack. (Do not forget the case when ClapTrap doesn't have any `hit_points` and its dead).
     * `void beRepaired(unsigned int amount);`: 
-      * When ClapTrap uses it, it regains `hit_points` equal to `amount` value (The string passed as parameter in `takeDamage`), but also lose **1 energy points** after repairing itself.
+      * When ClapTrap uses it, it regains `hit_points` equal to `amount` value (The unsigned int passed as parameter in `takeDamage`), but also lose **1 energy points** after repairing itself.
     * All these member functions must report the target and the damage caused in a message similar to this one (without brackets): 
       `ClapTrap <name> attacks <target>, causing <damage> points of damage!`
   * The ClapTrap instances should not interact directly with one another
